@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile - My Research Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #FFFACD, #98FB98, #FFC0CB);
+      background-size: 600% 600%;
+      animation: gradientAnimation 15s ease infinite;
+      margin: 0;
+      padding: 0;
+    }
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    header, nav, footer {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .profile img {
+      max-width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+    .profile p {
+      text-align: center;
+      font-size: 1.1em;
+    }
+    footer {
+      border-top: 1px solid #ddd;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to my website!</h1>
+    <!-- <p>Welcome to my website!</p> -->
+  </header>
+  
+  <nav>
+    <a href="profile.html">Profile</a>
+    <a href="career.html">Career</a>
+    <a href="papers.html">Papers</a>
+  </nav>
+  
+  <section class="profile">
+    <h2>Presentation</h2>
+    <!-- Replace 'your-photo.jpg' with the correct path to your photo -->
+    <img src="imgs/unnamed.jpg" alt="Photo" />
+    <p>Here I present myself.</p>
+
+    <h2>WHYS</h2>
+    <p>Here I state my whys.</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Alessia Conca Roncari. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!--http://localhost:8000/profile.html-->
